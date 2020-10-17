@@ -1,0 +1,33 @@
+.container {
+    width: 20%;
+    margin: 0 auto;
+    text-align: -webkit-center;
+    background: #fff;
+    position: relative;
+    height: 70%;
+    box-shadow: 5px 5px 10px 10px #999;
+    top: 17%;
+}
+.group-btn {
+    /* height: 63%; */
+    position: relative;
+    top: 70px;
+    /* margin: auto 0; */
+}
+button.button_container{
+    border-radius: 50%;
+    border: none;
+    height: 43px;
+    width: 43px;
+    color: #fff;
+    background: #29315d;
+    margin: 6px;
+    cursor: pointer;
+}
+.labn_color{
+    background: #5e87ab !important;
+    color: #29315d !important;
+}
+.dblue{
+    background: #166ebc !important;
+}
