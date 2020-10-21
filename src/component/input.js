@@ -1,18 +1,7 @@
 import React from "react";
-export default class Input extends React.Component {
-  state = {
-    style: {
-      position: "relative",
-      top: "50px",
-      left: "30%",
-      "font-size": "1.7rem",
-    },
-  };
+class Result extends React.Component {
   render() {
-    return (
-      <div className="result" style={this.state.style}>
-        {this.props.input}
-      </div>
-    );
+    return <div className="reseult">{this.props.result || 0}</div>;
   }
 }
+export default Result;

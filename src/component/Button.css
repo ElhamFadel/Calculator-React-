@@ -1,12 +1,14 @@
+
 .container {
-    width: 20%;
     margin: 0 auto;
     text-align: -webkit-center;
-    background: #fff;
-    position: relative;
-    height: 70%;
     box-shadow: 5px 5px 10px 10px #999;
-    top: 17%;
+    top: 3rem;
+    position: relative;
+    width: 283px;
+    height: 375px;
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 .group-btn {
     /* height: 63%; */
@@ -14,20 +16,38 @@
     top: 70px;
     /* margin: auto 0; */
 }
+#btn_zer0{
+    width: 100px;
+    text-align: left;
+    padding-left: 1.1rem;
+    border-radius: 45px!important;
+
+}
+
 button.button_container{
     border-radius: 50%;
     border: none;
     height: 43px;
     width: 43px;
     color: #fff;
-    background: #29315d;
+    background: #212638;
     margin: 6px;
     cursor: pointer;
+    font:"Roboto";
+    size: 36px;
+    line-height: 42.19px;
+
+
 }
 .labn_color{
-    background: #5e87ab !important;
-    color: #29315d !important;
+    background-color: #8490FF !important;
 }
 .dblue{
-    background: #166ebc !important;
+background-color: #34509E !important;
+}
+
+.reseult {
+    text-align: right;
+    padding: 15px 3rem 15px 0rem;
+    font-size: 2rem;
 }
